@@ -11,3 +11,5 @@ L'idée de base était de récolter du verre et du cuivre puis une fois qu'on av
 Lorsque l'on cliquait sur l'image de l'amoule, celle-ci devait s'allumer.
 
 Je pensais qu'arriver au level 3 aurait été faisable mais non :/
+
+Merci à Romain qui m'a permis de comprendre un peu ce qui ne marchait pas.
