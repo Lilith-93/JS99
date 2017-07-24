@@ -1,9 +1,39 @@
-//On crée la variable nbclick
-var nbclick = 0;
-//Fonction pour compter le nombre de clique sur nbclick
-function count(){
-//A chaque click, on augmente nbclick d'un. Grâce à la propriété onclick en html. On enregistre le nbclick dans une variable appelée result
-	var result = nbclick++;	
-//On retourne result
-	return result;
-}
+//POUR LE VERRE
+  //On crée la variable score
+  var scorev = 0;
+
+  //Fonction pour annoncer la variable score selon la variable score
+function displayScorev(){
+  return document.getElementById("scorev").innerHTML = scorev;
+  }
+
+  //Fonction pour compter le nombre de clics
+function v() {
+  scorev++;
+  return displayScorev() + scorev;
+  }
+  
+  //POUR LE CUIVRE 
+  var scorec = 0;
+
+function displayScorec(){
+  return document.getElementById("scorec").innerHTML = scorec;
+  }
+
+function c() {
+  scorec++;
+  return displayScorec() + scorec;
+  }
+  
+//POUR L'AMPOULE 
+  var scoreamp = 0;
+
+function displayScoreamp(){
+  return document.getElementById("scoreamp").innerHTML = scoreamp;
+  }
+
+function amp() {
+  scoreamp++;
+  return displayScoreamp() + scoreamp;
+  }
+  
