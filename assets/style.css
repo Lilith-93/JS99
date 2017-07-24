@@ -1,18 +1,9 @@
 button{
-  width: 100px;
-  padding: 5px;
-  background: green;
-  border-bottom: 5px black solid;
-  border-radius: 5px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: bold;
+	background: none;
+	border: none;
 }
-button:hover{
-  background: red;
+button img {
+	height: 100px;
 }
 
-a{
-  color: white;
-  text-decoration: none;
-} 
+.craft div {display: inline-block;}
